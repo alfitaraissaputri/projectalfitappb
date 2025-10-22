@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Projectalfitappb"
         tools:targetApi="31">
+
+        <activity
+            android:name=".CreateTodoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Textactivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
